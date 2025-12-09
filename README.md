@@ -14,6 +14,8 @@ This plugin enables a "Shop & Earn" workflow where purchasing specific products 
 *   **Secure Communication**: Uses a Shared Secret Key for authenticated REST API requests.
 *   **Dynamic Mapping**: Connect specific products on Site A to specific rewards on Site B.
 *   **Remote Catalog Fetching**: "Sender" site can fetch and display a dropdown of "Receiver" products for easy mapping.
+*   **Custom Email Templates**: Build your own reward emails with a WYSIWYG editor and placeholders like `{product_name}` and `{qr_code}`. Includes a "Send Test Email" feature.
+*   **Coupon Dashboard**: "Receiver" site includes a dashboard table to view, manage, and track all generated cross-site coupons.
 *   **Instant Gratification**: Generates a QR Code and "Claim Now" button immediately after purchase.
 *   **Frictionless Redemption**: QR codes link directly to the Cart with the product added and the 100% discount coupon applied.
 
