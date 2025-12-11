@@ -156,7 +156,8 @@ class WC_Cross_Site_Rewards {
 		wp_editor( $content, 'wc_xsr_email_template', array(
 			'textarea_name' => $this->option_name . '[email_template]',
 			'textarea_rows' => 10,
-			'media_buttons' => false
+			'media_buttons' => false,
+			'wpautop'       => false,
 		) );
 		echo '<div style="margin-top: 5px;">';
 		echo '<p class="description" style="display:inline-block; margin-right:15px;">Variables: <code>{product_name}</code>, <code>{code}</code>, <code>{url}</code>, <code>{qr_code}</code>, <code>{qr_url}</code></p>';
